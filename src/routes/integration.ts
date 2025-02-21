@@ -1,9 +1,11 @@
 import express, { Request, Response } from "express";
+import dotenv from "dotenv";
+dotenv.config();
 
 const router = express.Router();
 
 router.get("/integration.json", (req: Request, res: Response) => {
-  const baseUrl = `https://zjrfgb5b-3000.uks1.devtunnels.ms`;
+  const baseUrl = process.env.BASE_URL;
 
   res.json({
     data: {
