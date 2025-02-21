@@ -15,7 +15,7 @@ router.get("/integration.json", (req: Request, res: Response) => {
       },
       descriptions: {
         app_name: "Daily Summary Generator",
-        app_description: "Summarizes channel messages every 24 hours.",
+        app_description: "Summarizes channel messages every 24 hours (or at a configured interval).",
         app_logo: "https://res.cloudinary.com/digjbgzof/image/upload/v1739624354/joih6vrkknve5eifwj9y.webp",
         app_url: baseUrl,
         background_color: "#0000ff"
@@ -24,7 +24,7 @@ router.get("/integration.json", (req: Request, res: Response) => {
       integration_type: "interval",
       integration_category: "Monitoring & Logging",
       key_features: [
-        "Summarizes all messages every 24 hours",
+        "Summarizes all messages every 24 hours (or at a set interval)",
         "Uses GPT-4 to generate summaries",
         "Automatically posts summaries to the channel"
       ],
