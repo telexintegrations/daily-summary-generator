@@ -76,8 +76,8 @@ The integration settings allow customization:
 
 ## 📸 Screenshots
 
-  ![Simulated Messages in a channel](./assets/daily_summary-texts.png)
-![Daily Summary Bot](./assets/daily_summary_bot.png)
+  ![Simulated Messages in a channel](/assets/daily_summary-texts.png)
+![Daily Summary Bot](/assets/daily_summary_bot.png)
 
 ---
 
